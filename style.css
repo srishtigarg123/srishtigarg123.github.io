@@ -1,0 +1,91 @@
+body{margin: 0;
+}
+
+.Parallax {
+  background-image: url("images/Background.jpg");
+  height: 100%;
+  background-repeat: repeat;
+
+}
+
+.link
+ {
+  color:black;
+ }
+
+#Marvel {
+	width: 80%;
+}
+
+.cursor{
+	letter-spacing: 2px;
+	transition: letter-spacing 1s;
+}
+.cursor:hover{
+	background-color: black;
+	transition: letter-spacing 1s;
+	letter-spacing: 7px;
+}
+
+.affix{
+	top: 0;
+	width: 100%
+}
+.matter{
+	background-color: white;
+	width: 100%;
+	padding: 5%;
+	font-size: 120%;
+}
+#matterabout{
+	background-color: white;
+	width: 100%;
+	padding: 5%;
+	font-size: 140%;
+}
+@media only screen and (max-device-width: 1024px) {
+  pics {
+    background-attachment: scroll;
+  }
+}
+.pics{
+	min-height: 100%;
+  	background-position: center;
+	background-attachment: fixed;
+	background-repeat: repeat;
+}
+.background{
+	height:auto;
+	background-size:100%;
+	background-repeat:no-repeat;
+}
+.heading{
+	font-family: 'Shrikhand', cursive;
+	background-color: #333333;
+	width:100%;
+	padding: 1%;
+	border-radius: 5px;
+}
+.screen{
+	background-color: white;
+	width: 80%;
+	border-radius: 5px;
+	box-shadow: 1px 1px 3px grey;
+	transition: box-shadow 0.5s;
+}
+.screen:hover{
+	transition: box-shadow 0.5s;
+	box-shadow: 10px 10px 20px grey;
+}
+
+table, th, td{
+	border: 2px solid black;
+}
+tr:hover{
+	background-color:lightyellow;
+}
+th, td{
+	text-align: center;
+	padding:5px;
+}
+
